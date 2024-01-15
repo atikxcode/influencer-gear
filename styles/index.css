@@ -3,3 +3,387 @@
 *{
   font-family: 'Poppins', sans-serif;
 }
+
+/* Nav Bar design */
+
+.influencer-title{
+  color: #3A3A3A;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+nav{
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  margin:50px 100px;
+}
+
+nav > ul{
+  display: flex;
+}
+
+nav li{
+  list-style: none;
+  margin-right:1.875rem;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.625rem;
+  text-decoration: none;
+ 
+}
+
+nav a{
+  text-decoration: none;
+  color:#3A3A3A;
+  width: 74px;
+  height: 34.8px;
+}
+
+
+/* Influencer Section (Head Section) */
+
+
+.influencer-section{
+  display:flex;
+  justify-content: space-between;
+  margin:50px 100px;
+}
+
+.influencer-journey{
+  color: #3A3A3A;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px;
+  width:582px;
+}
+
+.influencer-description{
+  color: #3A3A3A;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.prebook{
+  border-radius: 41px;
+  background: #E02C6D;
+  padding:10px 24px;
+  border:none;
+  color:#fff;
+  cursor:pointer;
+}
+
+.fa-solid{
+  margin-left:7px;
+}
+
+.fa-bars{
+  display:none;
+}
+
+
+.camera1{
+  position:absolute;
+}
+.camera2{
+  position:relative;
+  top:10px;
+  left:20px;
+}
+
+
+/* Logo Section */
+
+.logo{
+  display: flex;
+  justify-content:space-between;
+  margin-top:40px;
+  margin-bottom:40px;
+}
+
+.logo-class{
+  width:85%;
+  margin-top:140px;
+  margin-bottom:120px;
+  margin-left:140px;
+}
+
+
+.horizontal-line{
+  border:1px solid rgb(240, 234, 234)
+}
+
+
+.product-carts{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:60px;
+  
+ 
+}
+
+.popular-class-title{
+  color: #3A3A3A;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 70px; 
+  margin-bottom:30px;
+}
+
+.popular-class{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  
+}
+
+.cart-box{
+  width: 329px;
+  height: 476px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+
+div > img, h2, h3, p {
+  margin-bottom:0;
+  margin-top:0;
+
+}
+
+.cart-img{
+  padding:15px;
+}
+
+.cart-title{
+  color: #18191F;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 40px; 
+  padding-left:15px;
+  padding-bottom:6px;
+}
+
+.cart-price{
+  color:  rgba(0, 0, 0, 0.87);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%; 
+  padding-left:15px;
+  padding-bottom:20px;
+}
+
+.cart-description{
+  width: 196px;
+  color:#787885;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 143%; 
+  letter-spacing: 0.252px;
+  padding-left:14px;
+  padding-bottom:17px;
+}
+
+.see{
+  margin-left:1420px;
+  margin-top:50px;
+  color: rgba(224, 44, 109, 0.87);
+  font-size: 16px;
+  font-weight: 700;
+  border:none;
+  background-color:#fff;
+  cursor:pointer;
+}
+
+.arrow{
+  color: rgba(224, 44, 109, 0.87);
+  margin-bottom:50px;
+}
+
+.feature-section{
+  display:flex;
+  width:100%;
+  margin-bottom:150px;
+  align-items:center;
+  justify-content: space-evenly;
+  margin-top:120px;
+}
+
+.feature-title{
+  color: #0A0826;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+.feature-description{
+  color: #6C6C6C;
+  width: 501px;
+  height: 88px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px; 
+
+}
+
+.join{
+  padding: 10px 24px;
+  background: #E02C6D;
+  border:none;
+  border-radius:2px;
+  color:white;
+}
+
+
+.footer{
+  display:flex;
+  flex-direction:column;
+  color:white;
+  background-color:#0A0826;
+  width: 100%;
+  height: 239px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.fa-instagram, .fa-basketball, .fa-twitter, .fa-youtube{
+  margin:16px;
+  border:5px solid #34306d;
+  border-radius:50%;
+}
+
+
+
+
+
+/* @media screen and (max-width:576px) {
+
+
+  body{
+    max-width:576px;
+  }
+
+  .influencer-title{
+    color: #3A3A3A;
+    font-size: 24px;
+    font-weight: 700;
+
+
+  }
+
+  nav li{
+    list-style: none;
+    margin-right:16px;
+    text-align:center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.25rem;
+    text-decoration: none;
+   
+  }
+
+  
+  nav > ul{
+    display:flex;
+    flex-wrap:wrap;
+  }
+
+  nav{
+    flex-direction: column;
+    margin:auto; 
+    padding:0;
+    width:300px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items:center;
+    margin:20px 10px;
+  }
+
+  nav a{
+    text-decoration:none;
+    width:auto;
+    height:auto;
+  }
+
+  .influencer-section{
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin: 20px 10px;;
+  }
+
+  #div2{
+    order: 1;
+  
+  }
+  #div1{
+    order:2;
+    display: flex;
+    flex-direction:column;
+  }
+
+
+  .camera-class{
+    margin-left:80px;
+  }
+
+  .camera2{
+    width:202px;
+    height:190px;
+    top:40px;
+  }
+
+  .camera1{
+    width:257px;
+    height:257px;
+    
+  }
+
+  .prebook{
+    width:50%;
+    margin-left:50px;
+  }
+
+
+  .influencer-journey{
+    color: #3A3A3A;
+  font-size: 32px; 
+  font-weight: 700;
+  line-height: 40px; 
+  text-align: center;
+  width: 100%; 
+
+  }
+
+
+  .logo-class{
+   
+    width:300px;
+    margin-left:0;
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-right:15px;
+  
+  }
+
+
+  .logo{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+ 
+  }
+
+  .horizontal-line{
+    display:none;
+  }
+
+  .influencer-description{
+    margin-left:0;
+  }
+  
+} */
